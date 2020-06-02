@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "230184812974",
+    "firebase_url": "https://uber-taxi-754b2.firebaseio.com",
+    "project_id": "uber-taxi-754b2",
+    "storage_bucket": "uber-taxi-754b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230184812974:android:340155e7eef1f6ab08883f",
+        "android_client_info": {
+          "package_name": "com.example.uber"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230184812974-rnjorlcjcvm55a9k8d3f9doi8ubqua9i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFWUD3_vavz0XImMVkyTaeN7neMDQbf78"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230184812974-rnjorlcjcvm55a9k8d3f9doi8ubqua9i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

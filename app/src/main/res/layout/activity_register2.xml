@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/b1"
+    tools:context=".Register2Activity">
+
+    <EditText
+        android:id="@+id/regName"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffff"
+
+        android:drawableStart="@drawable/ic_person_outline_black_24dp"
+        android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+        android:hint="enter name" />
+
+    <EditText
+        android:id="@+id/regEmail"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:background="#ffff"
+
+        android:drawableStart="@drawable/ic_email_black_24dp"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:hint="enter email" />
+
+    <EditText
+        android:id="@+id/regPwd"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:background="#ffff"
+
+        android:drawableStart="@drawable/ic_lock_outline_black_24dp"
+        android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+        android:hint="enter password"
+        android:inputType="textPassword" />
+
+
+    <EditText
+        android:id="@+id/regPwdConfirm"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:background="#ffff"
+        android:drawableStart="@drawable/ic_lock_outline_black_24dp"
+
+        android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+        android:hint="confirm password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/regMobile"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:background="#ffff"
+        android:drawableStart="@drawable/ic_phone_android_black_24dp"
+        android:drawableLeft="@drawable/ic_phone_android_black_24dp"
+        android:hint="enter mobile number" />
+
+    <EditText
+        android:id="@+id/regAddress"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:background="#ffff"
+        android:drawableStart="@drawable/ic_location_on_black_24dp"
+        android:drawableLeft="@drawable/ic_location_on_black_24dp"
+        android:hint="enter address" />
+
+    <EditText
+        android:id="@+id/regDOB"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:background="#ffff"
+        android:drawableStart="@drawable/ic_date_range_black_24dp"
+        android:drawableLeft="@drawable/ic_date_range_black_24dp"
+        android:hint="enter date of birth" />
+
+    <Button
+        android:id="@+id/regBtn"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/cust_btn"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="REGISTER"
+        android:textColor="#ffff"
+        android:textSize="20dp" />
+
+
+</LinearLayout>
